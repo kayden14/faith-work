@@ -1,0 +1,67 @@
+body{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: aqua;
+}
+ table{
+    margin: auto;
+    background-color: #9dd2ea;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+}
+ input{ 
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    border-left: 4em;
+}
+
+.operator{ 
+    background-color: #f1ff92;
+    position: relative;
+}
+
+
+#clear{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+    margin-bottom: 15px;
+}
+#answer{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #f1faeb;
+    float: left;
+}
+answer hover effect
+#answer:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    background-color: #f1faeb;
+}
+div{
+    width: 30em;
+    padding-right: 50em;
+    color: black;
+} 
+.display>input{
+    max-width: 30em;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color:rgba(0, 255, 255, 0);
+}
+h2{
+    text-transform: capitalize;
+    background-color:red;
+}
+ul{
+    list-style-type: lower-alpha;
+    font-style: italic;
+    font-size: medium;
+    font-family: fantasy;
+    }
+summary{
+    text-transform: capitalize;
+}
+ol{list-style-type:disc;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(0, 255, 255, 0.281);
+    max-width: 70%;
+    margin: 0 auto;
+}
+nav{ display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0)
+}
+nav a{ text-decoration: none;
+       padding: 1.5em 0.5em;
+       color:black;
+       text-transform: capitalize;
+       font-size: x-large;
+}
+nav a:hover {color: #000;
+    background-color: white;
+    border-right: 3px solid #fff ;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr );
+    gap: 5px 10px;
+}
+div section{
+    border: 3px double tomato;
+}
+
+h1,h2{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin: 0 0 1em;
+}
+
+
+p,img { font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    line-height: 2;
+    padding: 0 25px;
+}

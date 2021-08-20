@@ -1,0 +1,59 @@
+body{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+caption,td,table,tfoot{
+    border: 3px double tomato;
+
+} 
+tr{
+    padding: 1.5em 1em;
+}
+table{
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    /* border-spacing:  2em 1em; */
+}
+caption{ background-color: rgba(255, 99, 71, 0.527);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-color: black;
+    padding: 2em 1.5em;
+
+}
+td{
+    padding: 2em 1.5em;
+    border-spacing: 1px;
+    text-align: center;
+}
+tfoot{
+    border-color: black;
+    /* background-color:tomato; */
+    text-transform: capitalize;
+    text-align: center;
+    font-size: large;
+}
+tbody tr:first-child:hover{
+    background: -moz-linear-gradient(-90deg, cyan 30%, pink 30%,  pink 60%,  skyblue 30%);
+}
+tbody tr:nth-of-type(odd) td:nth-of-type(even):hover{
+    background: -moz-radial-gradient( rgb(0, 255, 42) 30%, rgb(255, 250, 181) 30%, rgb(255, 250, 181) 60%, skyblue 30%);
+    background: -o-radial-gradient( cyan 30%, moccasin 30%, moccasin 60%, skyblue 30%);
+}
+tbody tr:nth-last-of-type(even) td:nth-last-child(odd){
+    background: -moz-radial-gradient( grey 30%, red 30%, red 60%, green 30%)
+}
+tbody tr:last-child{
+    background: -o-radial-gradient( cyan 30%, moccasin 30%, moccasin 60%, skyblue 30%);
+}
+tfoot{
+    background: -moz-linear-gradient(-90deg, cyan 30%, pink 30%,  pink 60%,  skyblue 30%);
+}
+tbody tr:nth-of-type(even) td:nth-of-type(odd){
+    background: -moz-radial-gradient( rgb(0, 255, 42) 30%, rgb(255, 250, 181) 30%, rgb(255, 250, 181) 60%, skyblue 30%);
+}
+tbody tr:nth-last-of-type(odd) td:nth-last-child(even){
+    background: -o-radial-gradient( cyan 30%, moccasin 30%, moccasin 60%, skyblue 30%);
+}

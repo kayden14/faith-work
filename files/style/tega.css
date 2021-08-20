@@ -1,0 +1,31 @@
+body{
+    background-color: whitesmoke
+}
+
+h1{
+    font-family: serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: normal;
+    
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+p{
+    
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    font-style: inherit;
+    text-decoration-color: orange;
+  text-align: end;
+  background: orange;
+  text-transform: capitalize;
+}
