@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(172, 255, 47, 0.534);
+    /* max-width: 70%;
+    margin: 0 auto; */
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: chartreuse;
+    background-color: white;
+}
+h1:hover{
+    background-color: chartreuse;
+    color: white;
+    text-decoration-style: wavy;
+}
+h2{
+    text-transform: capitalize;
+    padding-left: 10em;
+}
+img{
+    border-radius: 100px;
+    border-right: 20px chartreuse;
+    box-shadow: 30px black;
+}
+p{
+    text-transform: capitalize;
+    color: #000;
+    border: 2px;
+}
