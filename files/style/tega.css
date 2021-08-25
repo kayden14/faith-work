@@ -1,3 +1,5 @@
+@media (max-width: 1400px){
+
 body{
     background-color: whitesmoke
 }
@@ -29,3 +31,87 @@ nav{
   background: orange;
   text-transform: capitalize;
 }
+}
+
+
+
+@media (max-width: 1100px){
+
+    body{
+        background-color: whitesmoke
+    }
+    
+    h1{
+        font-family: serif;
+        font-size: xx-large;
+        text-transform: uppercase;
+        text-transform: capitalize;
+        text-align: center;
+        font-style: normal;
+        
+    }
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    p{
+        
+        font-size: medium;
+        font-style: oblique;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+        font-style: inherit;
+        text-decoration-color: orange;
+      text-align: center;
+      background: orange;
+      text-transform: capitalize;
+    }
+    img{
+        max-width: 100%;
+    }
+    }
+
+
+    @media (max-width: 768px){
+
+        body{
+            background-color: whitesmoke
+        }
+        
+        h1{
+            font-family: serif;
+            font-size: xx-large;
+            text-transform: uppercase;
+            text-transform: capitalize;
+            text-align: center;
+            font-style: normal;
+            
+        }
+        h2{
+            text-transform: uppercase;
+            text-align: center;
+            
+        }
+        p{
+            
+            font-size: medium;
+            font-style: oblique;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{
+            font-style: inherit;
+            text-decoration-color: orange;
+          text-align: center;
+          background: orange;
+          text-transform: capitalize;
+        }
+        img{
+            max-width: 100%;
+        }
+        nav:hover{
+            display: flex;
+            flex-direction: column;
+        }
+        }

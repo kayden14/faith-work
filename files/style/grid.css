@@ -244,7 +244,7 @@
     background-image: url(../images/homepage2.jpeg)
        }
  .part3{
-   grid-area: 5/1/6/2;
+   grid-area: 8/1/7/2;
     background-image: url(../images/homepage3.jpeg);
        }
  .part4{
@@ -252,7 +252,7 @@
     background-image: url(../images/home4.jpeg);
        }
  .part5{
-   grid-area: 2/1/3/2;
+   grid-area: 9/1/10/2;
     background-image: url(../images/home4.jpeg);
          }
  .part6{
@@ -264,7 +264,7 @@
     background-image: url(../images/home6.jpeg);
         }
  .part8{
-   grid-area: 4/1/5/2;
+   grid-area: 8/1/9/2;
     background-image: url(../images/home7.jpeg);
      }
  .part9{

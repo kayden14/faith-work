@@ -140,7 +140,7 @@
         grid-template-columns: repeat(2, 1fr);
     } 
 
-    }
+    
         figcaption{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-transform: uppercase;
