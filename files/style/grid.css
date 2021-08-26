@@ -1,19 +1,14 @@
 @media (max-width: 1400px){
 
-
-    body{
-       max-width: 70%;
-       margin: 0 auto;
-   }
     main{
        display: grid;
    grid-template-columns: repeat( 3, 1fr);
    grid-template-rows: repeat( 6, 20% 20% 30% 20% 20% 30%); 
     }
  section{
-   border: 5px ridge red;
+   border: 1px ridge white;
    
-    }
+    } 
 .part1{ 
    grid-area: 1/1/4/3;
    background-image: url(../images/homepage3.jpeg);
@@ -52,6 +47,10 @@
    grid-area: 5/2/6/4;
    background-image: url(../images/home8.jpeg);
       }
+.part10{
+   grid-area:7/1/8/4;
+   background-image: url(../images/home8.jpeg);
+}
    h2{
    text-transform: uppercase;
    text-align: center;
@@ -105,15 +104,15 @@
     .part7:hover{
    background: -moz-linear-gradient( Navy 30%, Yellow 30%, navy 60%, Beige 30%);
     }
+    .part10:hover{
+      background: -moz-linear-gradient( Navy 30%, Yellow 30%, navy 60%, Beige 30%);
+    }
    
 }
 @media (max-width: 1100px){
 
 
-    body{
-       max-width: 70%;
-       margin: 0 auto;
-   }
+
     main{
        display: grid;
    grid-template-columns: repeat( 2, 1fr);
@@ -161,6 +160,10 @@
    grid-area: 5/2/6/3;
    background-image: url(../images/home8.jpeg);
       }
+.part10{
+   grid-area:7/1/8/3 ;
+   background-image: url(../images/home8.jpeg);
+}
    h2{
    text-transform: uppercase;
    text-align: center;
@@ -214,16 +217,16 @@
     .part7:hover{
    background: -moz-linear-gradient( Navy 30%, Yellow 30%, navy 60%, Beige 30%);
     }
+    .part10:hover{
+      background: -moz-linear-gradient( Navy 30%, Yellow 30%, navy 60%, Beige 30%);
+    }
    
 }
   
 @media (max-width: 768px){
 
 
-     body{
-        max-width: 70%;
-        margin: 0 auto;
-    }
+     
      main{
         display: grid;
     grid-template-columns: repeat( 1, 100%);
@@ -271,6 +274,10 @@
    grid-area: 5/1/6/2;
     background-image: url(../images/home8.jpeg);
        }
+.part10{
+   grid-area: 10/1/11/2;
+   background-image: url(../images/home8.jpeg);
+}
     h2{
     text-transform: uppercase;
     text-align: center;
@@ -324,5 +331,7 @@
      .part7:hover{
     background: -moz-linear-gradient( Navy 30%, Yellow 30%, navy 60%, Beige 30%);
      }
-    
+    .part10:hover{
+      background: -moz-linear-gradient( Navy 30%, Yellow 30%, navy 60%, Beige 30%);
+    }
 }

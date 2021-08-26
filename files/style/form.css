@@ -24,10 +24,11 @@ fieldset{
     margin-bottom: 4%;
 }
 legend{
+    
     text-transform: uppercase;
     color:  #FFFF;
     background-color: #414141;
-    padding: 0.5em 0.4em;
+    padding: 0.5em 0.4em; 
     border: #000000;
     text-align: center;
     border-radius: 10px;
@@ -255,7 +256,7 @@ i:hover{
     i:hover{
         color:#fff;
     }
-    }
+}
 
 
 @media (max-width: 730px){
@@ -356,7 +357,7 @@ i:hover{
     }
     .sio input{
         display: block;
-        width: 90%;
+        width: 100%;
         padding: 0.7em 0.4em;
         border-radius: 20px;
         outline: none;
@@ -387,4 +388,4 @@ i:hover{
     i:hover{
         color:#fff;
     }
-    }
+}
