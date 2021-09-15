@@ -4,11 +4,15 @@ body{
     margin-top: 5%;
     background-color: aqua;
 }
+#td>input{
+    width: 70%;
+    padding-left: 4em;
+}
  table{
     margin: auto;
     background-color: #9dd2ea;
-    width: 295px;
-    height: 325px;
+    width: 350px;
+    height: 450px;
     text-align: center;
     border-radius: 4px;
 }
@@ -28,7 +32,9 @@ body{
     box-shadow: 0 4px rgba(0,0,0,0.2);
     border-left: 4em;
 }
-
+td{
+    font-size:40%;
+}
 .operator{ 
     background-color: #f1ff92;
     position: relative;
@@ -49,7 +55,7 @@ body{
     background-color: #f1faeb;
     float: left;
 }
-answer hover effect
+
 #answer:hover{
     width: 270px;
     font-size: 26px;
